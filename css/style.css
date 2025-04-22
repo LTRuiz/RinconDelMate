@@ -206,9 +206,9 @@ main {
     gap: 1.5rem;
 }
 
-.carrito-vacio {
+.carrito-vacio,
+.carrito-comprado {
     color: #0B7C24;
-    display: none;
 }
 
 .carrito-pdtos {
@@ -284,4 +284,8 @@ main {
     color: whitesmoke;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.disabled {
+    display: none;
 }
