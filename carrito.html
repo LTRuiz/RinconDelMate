@@ -33,53 +33,13 @@
         <main>
             <h2 class="titulo-principal">Carrito</h2>
             <div class="contenedor-carrito">
-                <p class="carrito-vacio">Tu carrito esta vacío</p>
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacío. </p>
                 
-                <div class="carrito-pdtos">
-
-                    <div class="carrito-pdto">
-                        <img class="carrito-pdto-img" src="./img/mates/mate1.jpg" alt="">
-                        <div class="carrito-pdto-titulo">
-                            <small>Título</small>
-                            <h3>Producto 01</h3>
-                        </div>
-                        <div class="carrito-pdto-cantidad">
-                            <small>Cantidad</small>
-                            <p>1</p>
-                        </div>
-                        <div class="carrito-pdto-precio">
-                            <small>Precio</small>
-                            <p>$000.00</p>
-                        </div>
-                        <div class="carrito-pdto-subtotal">
-                            <small>Subtotal</small>
-                            <p>$000.00</p>
-                        </div>
-                        <button class="carrito-pdto-eliminar"><i class="bi bi-trash"></i></button>
-                    </div>
-                    <div class="carrito-pdto">
-                        <img class="carrito-pdto-img" src="./img/mates/mate2.jpg" alt="">
-                        <div class="carrito-pdto-titulo">
-                            <small>Título</small>
-                            <h3>Producto 02</h3>
-                        </div>
-                        <div class="carrito-pdto-cantidad">
-                            <small>Cantidad</small>
-                            <p>1</p>
-                        </div>
-                        <div class="carrito-pdto-precio">
-                            <small>Precio</small>
-                            <p>$000.00</p>
-                        </div>
-                        <div class="carrito-pdto-subtotal">
-                            <small>Subtotal</small>
-                            <p>$000.00</p>
-                        </div>
-                        <button class="carrito-pdto-eliminar"><i class="bi bi-trash"></i></button>
-                    </div>
+                <div id="carrito-pdtos" class="carrito-pdtos">
+                    <!-- llenamos con JS -->
                 </div>
 
-                <div class="carrito-acciones">
+                <div id="carrito-acciones" class="carrito-acciones disabled">
                     <div class="carrito-acciones-izquierda">
                         <button class="carrito-acciones-vaciar">Vaciar carrito</button>
                     </div>
@@ -88,9 +48,12 @@
                             <p>Total</p>
                             <p>$000.00</p>
                         </div>
-                        <button class="carrito-acciones-comprar">Comprar ahora</button>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
                     </div>
-                </div>                
+                </div>
+                
+                <p id="carrito-comprado" class="carrito-comprado disabled"> Muchas gracias por tu compra. </p>
+                
             </div>
         </main>
     </div>
